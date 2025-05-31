@@ -1,0 +1,130 @@
+body
+            {
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0px;
+            }
+            .Logo
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                padding-top:202px;
+                padding-bottom:202px;
+                width: 100%;
+            }
+            .left , .right
+            {
+                height: 224px;
+                /* width: 112px; */
+                display: flex;
+                align-items: center;
+                width: 100%;
+            }
+            .left
+            {
+                justify-content: start;
+            }
+            .right
+            {
+                justify-content: end;
+            }
+            .midd
+            {
+                /* width: 1696px; */
+                display:flex;
+                justify-content: center;
+                width: 100%;
+            }
+            .lg
+            {
+                height:224px;
+                width:556px;
+                object-fit: fill;
+            }
+            .key
+            {
+                height:49px;
+                width:112px;
+                object-fit: fill;  
+            }
+            .plunger
+            {
+                height:49px;
+                width:112px;
+                object-fit: fill;
+                margin: none;
+            }
+            .sl
+            {
+                width: 100%;
+                height: 216px;
+            }
+            .con
+            {
+                color: black;
+                font-size: 100px;
+                font-family: "Myriad Variable Concept", sans-serif;
+                font-weight: bold;
+                text-align: center;
+                padding-bottom: 129px;
+            }
+            .Slogo
+            {
+                padding-bottom:202px;
+            }
+            .Contact
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .container
+            {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            .phone , .email , .address
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-top: 24px;
+                padding-left: 56px;
+            }
+            .address
+            {
+                align-items: start;
+            }
+            .tele
+            {
+                height: 56px;
+                width: 56px;
+                object-fit: fill;
+            }
+            .number
+            {
+                color: black;
+                font-size: 39px;
+                font-family: "Calibri", sans-serif;
+                font-weight: bold;
+                padding-left: 17px;
+            }
+            .copy
+            {
+                padding-top: 100px;
+                color:black;
+                text-align: center;
+            }
+            .cpyr
+            {
+                font-family:"Calibri", sans-serif;
+                font-size: 18px;
+                font-weight: 300;
+                padding-bottom: 34px;
+            }
